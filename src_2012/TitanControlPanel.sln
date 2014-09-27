@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TitanControlPanel.Package", "Package\TitanControlPanel.Package.csproj", "{E8A713A1-5702-4A16-BD6F-8B598B66DB2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{81B6884F-5CA5-48E9-BDA1-CB6F8F56C297}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{38692BAE-5FE6-4DBD-AB6F-C17380483D8C}"
+	ProjectSection(SolutionItems) = preProject
+		IntegrationTests.testsettings = IntegrationTests.testsettings
+		TitanControlPanel.vsmdi = TitanControlPanel.vsmdi
+		UnitTests.testsettings = UnitTests.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{4690A592-807A-4AEB-9443-CC17E52706EA}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TitanControlPanel.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8A713A1-5702-4A16-BD6F-8B598B66DB2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A713A1-5702-4A16-BD6F-8B598B66DB2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A713A1-5702-4A16-BD6F-8B598B66DB2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A713A1-5702-4A16-BD6F-8B598B66DB2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B6884F-5CA5-48E9-BDA1-CB6F8F56C297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B6884F-5CA5-48E9-BDA1-CB6F8F56C297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B6884F-5CA5-48E9-BDA1-CB6F8F56C297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B6884F-5CA5-48E9-BDA1-CB6F8F56C297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4690A592-807A-4AEB-9443-CC17E52706EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4690A592-807A-4AEB-9443-CC17E52706EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4690A592-807A-4AEB-9443-CC17E52706EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4690A592-807A-4AEB-9443-CC17E52706EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
