@@ -1,4 +1,6 @@
-﻿using System;
+﻿#if !PLATFORM_VS2010 // PH: I have no VB installed in VS2010
+
+using System;
 using EnvDTE;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.VsSDK.IntegrationTestLibrary;
@@ -90,3 +92,4 @@ namespace CodeTitans.IntegrationTests
         }
     }
 }
+#endif

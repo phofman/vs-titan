@@ -61,7 +61,11 @@ namespace CodeTitans.IntegrationTests
 
                 //Template parameters
                 string projectType = "{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}";
+#if PLATFORM_VS2010
+                string projectTemplateName = Path.Combine("vcNet", "..\\mc++appwiz.vsz");
+#else
                 string projectTemplateName = Path.Combine("vcNet", "mc++appwiz.vsz");
+#endif
 
                 string itemTemplateName = "newc++file.cpp";
                 string newFileName = "Test.cpp";
