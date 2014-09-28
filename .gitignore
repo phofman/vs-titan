@@ -1,0 +1,47 @@
+#############################################
+# Visual Studio 2010
+src_2010/IntegrationTests/bin/
+src_2010/IntegrationTests/obj/
+src_2010/Package/bin/
+src_2010/Package/obj/
+src_2010/UnitTests/bin/
+src_2010/UnitTests/obj/
+src_2010/TestResults/
+
+# User Configuration Files
+src_2010/TitanControlPanel.sln.DotSettings.user
+src_2010/TitanControlPanel.suo
+src_2010/IntegrationTests/IntegrationTests.csproj.user
+src_2010/Package/TitanControlPanel.Package.csproj.user
+
+
+#############################################
+# Visual Studio 2012
+src_2012/IntegrationTests/bin/
+src_2012/IntegrationTests/obj/
+src_2012/Package/bin/
+src_2012/Package/obj/
+src_2012/UnitTests/bin/
+src_2012/UnitTests/obj/
+src_2012/TestResults/
+
+# User Configuration Files
+src_2012/TitanControlPanel.sln.DotSettings.user
+src_2012/TitanControlPanel.v11.suo
+src_2012/Package/TitanControlPanel.Package.csproj.user
+
+#############################################
+# Visual Studio 2013
+src_2013/IntegrationTests/bin/
+src_2013/IntegrationTests/obj/
+src_2013/Package/bin/
+src_2013/Package/obj/
+src_2013/UnitTests/bin/
+src_2013/UnitTests/obj/
+src_2013/TestResults/
+
+# User Configuration Files
+src_2013/Package/TitanControlPanel.Package.csproj.user
+src_2013/TitanControlPanel.sln.DotSettings.user
+src_2013/TitanControlPanel.v12.suo
+
