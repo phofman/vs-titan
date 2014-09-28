@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TitanControlPanel.Package", "Package\TitanControlPanel.Package.csproj", "{C5BB0F8F-6E01-4F4B-8B54-89D364A21120}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{3C9A8028-3909-4B48-8350-1A509DBB7465}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4234528B-C703-449A-B0D2-9C7F755AFE90}"
+	ProjectSection(SolutionItems) = preProject
+		IntegrationTests.testsettings = IntegrationTests.testsettings
+		UnitTests.testsettings = UnitTests.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{F199B5CA-29E3-4BBA-BD93-5CC09AECAAF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5BB0F8F-6E01-4F4B-8B54-89D364A21120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5BB0F8F-6E01-4F4B-8B54-89D364A21120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5BB0F8F-6E01-4F4B-8B54-89D364A21120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5BB0F8F-6E01-4F4B-8B54-89D364A21120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C9A8028-3909-4B48-8350-1A509DBB7465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C9A8028-3909-4B48-8350-1A509DBB7465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C9A8028-3909-4B48-8350-1A509DBB7465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C9A8028-3909-4B48-8350-1A509DBB7465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F199B5CA-29E3-4BBA-BD93-5CC09AECAAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F199B5CA-29E3-4BBA-BD93-5CC09AECAAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F199B5CA-29E3-4BBA-BD93-5CC09AECAAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F199B5CA-29E3-4BBA-BD93-5CC09AECAAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
