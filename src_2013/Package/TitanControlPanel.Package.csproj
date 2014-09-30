@@ -127,6 +127,9 @@
     <Compile Include="..\..\src_2012\Package\Properties\GlobalSuppressions.cs">
       <Link>Properties\GlobalSuppressions.cs</Link>
     </Compile>
+    <Compile Include="..\..\src_2012\Package\Registration\ProvideWizardEngineAttribute.cs">
+      <Link>Registration\ProvideWizardEngineAttribute.cs</Link>
+    </Compile>
     <Compile Include="..\..\src_2012\Package\Resources\Resources.Designer.cs">
       <Link>Resources\Resources.Designer.cs</Link>
       <AutoGen>True</AutoGen>
@@ -135,6 +138,9 @@
     </Compile>
     <Compile Include="..\..\src_2012\Package\TitanControlPanelPackage.cs">
       <Link>TitanControlPanelPackage.cs</Link>
+    </Compile>
+    <Compile Include="..\..\src_2012\Package\Wizards\MultiFileWizardEngine.cs">
+      <Link>Wizards\MultiFileWizardEngine.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
