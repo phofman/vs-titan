@@ -1,6 +1,9 @@
 ﻿using System.Diagnostics;
 using System.Runtime.InteropServices;
+using CodeTitans.TitanControlPanel.Registration;
+using CodeTitans.TitanControlPanel.Wizards;
 using Microsoft.VisualStudio.Shell;
+using Microsoft.VisualStudio.Shell.Interop;
 
 namespace CodeTitans.TitanControlPanel
 {
@@ -21,6 +24,18 @@ namespace CodeTitans.TitanControlPanel
     // in the Help/About dialog of Visual Studio.
     [InstalledProductRegistration("#110", "#112", "1.0", IconResourceID = 400)]
     [Guid(GuidList.guidTitanControlPanelPkgString)]
+
+    // This attribute adds top level node at [Add Project Item] dialog for Visual C++ projects only and showing
+    // new item wizards from '<Package>/ProjectItems' folder. This is an easy way to inject new templates
+    // without any need of copying them into Visual Studio folder itself.
+    [ProvideProjectItem("{8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942}", "CodeTitans", "ProjectItems", 10)]
+
+    // This attribute registers a custom wizard engine, that is used to populate new items into a project.
+    // Reference to this engine is made directly from custom-dynamic-wizard.vsz file
+    // (populated later, at runtime, under CodeTitans project items).
+    [ProvideWizardEngine(typeof(MultiFileWizardEngine))]
+
+    [ProvideAutoLoad(UIContextGuids80.NoSolution)]
     public sealed class TitanControlPanelPackage : Package
     {
         /// <summary>
