@@ -145,6 +145,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="..\..\src_2012\Package\ProjectItems\Dynamic\codetitans.vsdir">
+      <Link>ProjectItems\Dynamic\codetitans.vsdir</Link>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="..\..\src_2012\Package\ProjectItems\Dynamic\custom-dynamic-wizard.vsz">
+      <Link>ProjectItems\Dynamic\custom-dynamic-wizard.vsz</Link>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>

@@ -28,7 +28,11 @@ namespace CodeTitans.TitanControlPanel
     // This attribute adds top level node at [Add Project Item] dialog for Visual C++ projects only and showing
     // new item wizards from '<Package>/ProjectItems' folder. This is an easy way to inject new templates
     // without any need of copying them into Visual Studio folder itself.
-    [ProvideProjectItem("{8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942}", "CodeTitans", "ProjectItems", 10)]
+#if PLATFORM_VS2013
+    [ProvideProjectItem("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC943}", "CodeTitans", "ProjectItems", 10)]
+#else
+    [ProvideProjectItem("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}", "CodeTitans", "ProjectItems", 10)]
+#endif
 
     // This attribute registers a custom wizard engine, that is used to populate new items into a project.
     // Reference to this engine is made directly from custom-dynamic-wizard.vsz file
